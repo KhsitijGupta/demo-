@@ -184,7 +184,7 @@ export default function ImageSlider() {
     useEffect(() => {
         const updateSpeed = () => {
             if (window.innerWidth < 640) {
-                setSpeed(BASE_SPEED * 8) // mobile =  speed * 4
+                setSpeed(BASE_SPEED * 4) // mobile =  speed * 4
             } else {
                 setSpeed(BASE_SPEED)
             }
