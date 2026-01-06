@@ -180,7 +180,7 @@ const Courses = () => {
 
           <a
             href="#contact"
-            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-lg font-semibold hover:bg-gray-100 transition"
+            className="inline-block  rounded-lg font-semibold  transition text-blue-600 bg-blue-50 px-6 py-3 hover:bg-blue-600 hover:text-white cursor-pointer"
           >
             Enroll Now
           </a>
