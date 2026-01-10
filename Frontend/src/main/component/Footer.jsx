@@ -101,14 +101,6 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-4">
-              <li className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
-                <span className="text-sm text-gray-400">
-                  Street No 1, H.No. 383, Fiza Colony Rd, Ashiyana Colony, Viswakarma
-                  Nagar, Nariyalkheda, Bhopal, Madhya Pradesh 462100
-
-                </span>
-              </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-green-500 flex-shrink-0" />
                 <span className="text-sm text-gray-400">+91 8827123844</span>
@@ -116,6 +108,14 @@ const Footer = () => {
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-orange-500 flex-shrink-0" />
                 <span className="text-sm text-gray-400">amcoachingclasses34@gmail.com</span>
+              </li>
+              <li className="flex items-start space-x-3">
+                <MapPin className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
+                <span className="text-sm text-gray-400">
+                  Street No 1, H.No. 383, Fiza Colony Rd, Ashiyana Colony, Viswakarma
+                  Nagar, Nariyalkheda, Bhopal, Madhya Pradesh 462100
+
+                </span>
               </li>
             </ul>
           </div>

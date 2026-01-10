@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Youtube } from "lucide-react";
 // import banner1 from "../../../assests/bg.jpg";
 import image from "../../../assests/AMimg24.jpeg";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Button = ({ children, className, ...props }) => (
   <button
@@ -31,14 +32,18 @@ export default function HeroSection() {
         <div className="order-2 md:order-1 animate-fadeInUp  text-left md:mt-20 ">
           <h1 className="   text-3xl md:text-4xl lg:text-5xl font-bold  text-black pt-4 md:pt-0">
             Shaping Young Minds
-            <span className="text-blue-400 pt-2 block"> Building Bright Futures</span>
+            <span className="text-blue-400 pt-2 block">
+              {" "}
+              Building Bright Futures
+            </span>
           </h1>
           <br></br>
           {/* Paragraph */}
           <p className="  flex   text-gray-700 mb-8 max-w-lg mx-auto md:mx-0 animate-fadeIn delay-200">
-            We offer result-oriented coaching for Classes 1 to 12 with personalized mentoring, strong fundamentals, and exam-focused preparation to help students succeed with confidence.
+            We offer result-oriented coaching for Classes 1 to 12 with
+            personalized mentoring, strong fundamentals, and exam-focused
+            preparation to help students succeed with confidence.
           </p>
-
 
           {/* Social Buttons */}
           <div className="flex flex-row gap-4 md: animate-fadeIn delay-600 justify-start md:justify-start pb-10">
@@ -51,7 +56,6 @@ export default function HeroSection() {
                   "noopener,noreferrer"
                 )
               }
-
               className="bg-white text-red-600 border border-transparent 
                hover:bg-red-50 hover:border-red-200 hover:scale-110 
                rounded-full md:rounded-lg 
@@ -67,7 +71,7 @@ export default function HeroSection() {
             <Button
               onClick={() =>
                 window.open(
-                  "https://www.facebook.com/share/1BLbRbcXRA/",
+                  "https://www.facebook.com/profile.php?id=61585880637178&rdid=Z5edXP2uV8mqco18&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BLbRbcXRA%2F#",
                   "_blank",
                   "noopener,noreferrer"
                 )
@@ -100,6 +104,27 @@ export default function HeroSection() {
                group cursor-pointer"
             >
               <Instagram className="w-5 h-5 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110" />
+              {/* <span className="hidden md:inline ml-2">Instagram</span> */}
+            </Button>
+           
+           
+            {/* WhatsApp */}
+            <Button
+              onClick={() =>
+                window.open(
+                  "https://www.instagram.com/amcoachingclasses1?igsh=YzljYTk1ODg3Zg==",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+              className="bg-white text-green-600 border border-transparent 
+               hover:bg-pink-50 hover:border-pink-200 hover:scale-110 
+               rounded-full md:rounded-lg 
+               w-10 h-10 md:w-auto md:h-auto 
+               shadow-md hover:shadow-xl 
+               group cursor-pointer"
+            >
+              <FaWhatsapp className="w-5 h-5 transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110" />
               {/* <span className="hidden md:inline ml-2">Instagram</span> */}
             </Button>
           </div>
