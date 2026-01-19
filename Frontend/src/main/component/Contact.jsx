@@ -355,8 +355,7 @@ ${formData.message}
               </a>
               <p className="text-lg font-bold">A.M Coaching Classes</p>
               <p className="text-sm text-gray-600 mt-2">
-                Street No 1, H.No. 383, Fiza Colony Rd, Ashiyana Colony,
-                Viswakarma Nagar, Nariyalkheda, Bhopal, Madhya Pradesh 462100
+                H.No. 383, Street No 1, Fiza Colony Nariyal Kheda, bhopal, Madhya Pradesh 462100
               </p>
             </div>
 

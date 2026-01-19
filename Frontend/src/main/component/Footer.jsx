@@ -112,8 +112,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-400">
-                  Street No 1, H.No. 383, Fiza Colony Rd, Ashiyana Colony, Viswakarma
-                  Nagar, Nariyalkheda, Bhopal, Madhya Pradesh 462100
+                  H.No. 383, Street No 1, Fiza Colony Nariyal Kheda, bhopal, Madhya Pradesh 462100
 
                 </span>
               </li>
