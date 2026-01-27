@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 import BranchTree from "./BranshTree";
 import img from '../../../public/tre.jpg'
-import Logosec from "./logosec";
+import Logosec from "./Logosec";
 import Footer from "./Footer";
 
 export default function LandingPage() {
