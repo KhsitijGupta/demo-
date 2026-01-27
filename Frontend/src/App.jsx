@@ -11,8 +11,8 @@ function App() {
       <WhatsAppButton />
       <Router>
         <Routes>
-          <Route path="/" element={<LandinPage />} />
-          <Route path="/main" element={<New />} />
+          <Route path="/main" element={<LandinPage />} />
+          <Route path="/" element={<New />} />
 
         </Routes>
       </Router>
